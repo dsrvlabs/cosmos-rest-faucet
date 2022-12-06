@@ -9,7 +9,7 @@ prefix         = "cosmos"
 denomination   = "urand"
 
 [testnets]
-    [testnets.theta-testnet-001]
+    [testnets.rand-1]
     node_url = "http://localhost:46657"
     chain_id = "rand-1"
     faucet_address = "cosmos1f9k0728rcngqj7p2eeqk27v8dw5sw5ccydx77j"
