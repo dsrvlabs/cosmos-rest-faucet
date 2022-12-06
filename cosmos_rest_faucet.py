@@ -24,8 +24,8 @@ try:
     GAIA_HOME = config['gaia_home_folder']
     TX_LOG_PATH = config['transactions_log']
     REQUEST_TIMEOUT = int(config['request_timeout'])
-    ADDRESS_PREFIX = config['cosmos']['prefix']
-    DENOM = str(config['cosmos']['denomination'])
+    ADDRESS_PREFIX = config['rand']['prefix']
+    DENOM = str(config['rand']['denomination'])
     testnets = config['testnets']
     for net in testnets:
         testnets[net]["active_day"] = datetime.datetime.today().date()
